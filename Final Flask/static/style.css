@@ -1,0 +1,68 @@
+/* Reset some default styles */
+body, h1, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Center the container */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form */
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style error messages */
+.error {
+    color: #ff0000;
+    margin-top: 10px;
+}
+
+/* Style result section */
+h2 {
+    margin-top: 20px;
+}
+
+/* Style the result image */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
